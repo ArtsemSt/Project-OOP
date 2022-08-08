@@ -28,7 +28,7 @@ class Laptop(Device):
     def print_info(self):
         super().print_info()
         print("Операционная система: " + self.os)
-        print("Год выпуска: " + self.year)
+        print("Год выпуска ноутбука: " + self.year)
 
 
 class TV(Device):
